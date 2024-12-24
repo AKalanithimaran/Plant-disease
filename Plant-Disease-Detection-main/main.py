@@ -74,7 +74,7 @@ elif app_mode == "Disease Recognition":
     test_image = st.file_uploader("Choose an Image :")
     st.link_button("Download Test Images","https://github.com/AKalanithimaran/Plant-disease/tree/main/Plant-Disease-Detection-main/test/sample")
     if st.button("Show Image"):
-        st.image(test_image, width=4, use_column_width=True)
+        st.image(test_image, width=4, use_container_width=True)
     
     if st.button("Predict"):
         st.snow()
