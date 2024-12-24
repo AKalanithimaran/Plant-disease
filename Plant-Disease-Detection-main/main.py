@@ -65,14 +65,14 @@ elif(app_mode=="About"):
                 A Passionate team specializing in AI-driven solutions for sustainable farming.
 
                 """)
-    st.link_button("Source Code","https://github.com/Lakshr1/Plant-Disease-Detection")
+    st.link_button("Source Code","https://github.com/AKalanithimaran/Plant-disease/tree/main/Plant-Disease-Detection-main")
     
 
 
 elif app_mode == "Disease Recognition":
     st.header("Disease Recognition")
     test_image = st.file_uploader("Choose an Image :")
-    st.link_button("Download Test Images","https://github.com/Lakshr1/Plant-Disease-Detection/tree/main/test/test")
+    st.link_button("Download Test Images","https://github.com/AKalanithimaran/Plant-disease/tree/main/Plant-Disease-Detection-main/test/sample")
     if st.button("Show Image"):
         st.image(test_image, width=4, use_column_width=True)
     
@@ -158,7 +158,7 @@ elif(app_mode=="Source Code"):
                 ### Plant Disease Detection
                 This repository contains a plant disease detection application that leverages machine learning techniques to identify diseases in crop leaves.
                 """)
-    st.link_button("Source Code","https://github.com/Lakshr1/Plant-Disease-Detection")
+    st.link_button("Source Code","https://github.com/AKalanithimaran/Plant-disease")
 
 # import streamlit as st
 
@@ -240,7 +240,7 @@ elif(app_mode=="Source Code"):
 #     2. test (33 images)
 #     3. validation (17572 images)
 #     """)
-#     st.markdown("[Source Code](https://github.com/Lakshr1/Plant-Disease-Detection)")
+#     st.markdown("[Source Code](https://github.com/AKalanithimaran/Plant-disease)")
 
 # # Disease Recognition Page
 # elif app_mode == "Disease Recognition":
@@ -322,4 +322,4 @@ elif(app_mode=="Source Code"):
 #     ### Plant Disease Detection
 #     This repository contains a plant disease detection application that leverages machine learning techniques to identify diseases in crop leaves.
 #     """)
-#     st.markdown("[Source Code](https://github.com/Lakshr1/Plant-Disease-Detection)")
+#     st.markdown("[Source Code](https://github.com/AKalanithimaran/Plant-disease)")
